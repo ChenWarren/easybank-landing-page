@@ -1,0 +1,12 @@
+/* Main button style */
+.main-button {
+    background-color: var(--primary);
+    color: var(--white);
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+    background-image: linear-gradient(90deg, var(--primary), var(--info));
+}
+.main-button:hover {
+    background-image: linear-gradient(90deg, var(--teal), var(--green));
+}
