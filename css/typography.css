@@ -1,0 +1,78 @@
+/* Font size */
+.font-size-base {
+    font-size: var(--font-size-base);
+}
+.font-size-xxlarge {
+    font-size: var(--font-size-xxlarge);
+}
+.font-size-xlarge {
+    font-size: var(--font-size-xlarge);
+}
+.font-size-large {
+    font-size: var(--font-size-large);
+}
+.font-size-small {
+    font-size: var(--font-size-small);
+}
+.font-size-xsmall {
+    font-size: var(--font-size-xsmall);
+}
+.font-size-xssmall {
+    font-size: var(--font-size-xxsmall);
+}
+
+/* Font weights */
+.font-weight-light {
+  font-weight: 300;
+}
+.font-weight-normal {
+  font-weight: 400;
+}
+.font-weight-bold {
+  font-weight: 700;
+}
+
+
+/* Text align */
+.text-left {
+    text-align: left;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+
+/* Text transform */
+.text-uppercase {
+    text-transform: uppercase;
+}
+.text-lowercase {
+    text-transform: lowercase;
+}
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+/* Text decoration */
+.text-decoration-none {
+    text-decoration: none;
+}
+.text-decoration-underline {
+    text-decoration: underline;
+}
+.text-decoration-line-through {
+    text-decoration: line-through;
+}
+
+/* Text line height */
+.line-height-10 {
+    line-height: 1;
+}
+.line-height-16 {
+    line-height: 1.6;
+}
+.line-height-20 {
+    line-height: 2;
+}

@@ -1,0 +1,49 @@
+/* Main axis class: */
+
+.main-axis-start {
+    justify-content: flex-start;
+}
+.main-axis-center {
+    justify-content: center;
+}
+.main-axis-end {
+    justify-content: flex-end;
+}
+.main-axis-between {
+    justify-content: space-between;
+}
+
+/* Cross axis class: */
+.cross-axis-start {
+    align-items: flex-start;
+}
+.cross-axis-center {
+    align-items: center;
+}
+.cross-axis-end {
+    align-items: flex-end;
+}
+.cross-axis-between {
+    align-items: space-between;
+}
+
+/* Position class: */
+.position-relative {
+    position: relative;
+}
+.position-absolute {
+    position: absolute;
+}
+.position-fixed {
+    position: fixed;
+}
+
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
