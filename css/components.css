@@ -13,17 +13,17 @@
 
 /* Hero section style */
 #home-hero-section {
-    background-image:linear-gradient(to right, rgba(255,0,0,0), rgb(255, 255, 255)), url("../images/image-mockups.png"), url("../images/bg-intro-desktop.svg");
-    background-size:10%, 600px, 1000px;
-    background-position:100%, 100% -100px, 110% -200px;
+    background-image:url("../images/image-mockups.png"), url("../images/bg-intro-desktop.svg");
+    background-size:600px, 1000px;
+    background-position:100% -100px, 110% -200px;
     background-repeat: no-repeat;
     height: 800px;
 }
 @media screen and (max-width: 1500px) {
     #home-hero-section {
-        background-image:linear-gradient(to right, rgba(255,0,0,0), rgb(255, 255, 255)), url("../images/image-mockups.png"), url("../images/bg-intro-desktop.svg");
-        background-size:10%, 600px, 1000px;
-        background-position:100%, 100% -100px, 160% -200px;
+        background-image: url("../images/image-mockups.png"), url("../images/bg-intro-desktop.svg");
+        background-size:600px, 1000px;
+        background-position:100% -100px, 160% -200px;
         background-repeat: no-repeat;
         height: 800px;
     }
