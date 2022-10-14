@@ -26,12 +26,13 @@
     --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --font-size-base: 1rem;
-    --font-size-xxlarge: 2rem;
-    --font-size-xlarge: 1.5rem;
-    --font-size-large: 1.25rem;
-    --font-size-small: 0.75rem;
-    --font-size-xsmall: 0.5rem;
-    --font-size-xxsmall: 0.25rem;
+    --font-size-xxxl: 3rem;
+    --font-size-xxl: 2rem;
+    --font-size-xl: 1.5rem;
+    --font-size-l: 1.25rem;
+    --font-size-s: 0.75rem;
+    --font-size-xs: 0.5rem;
+    --font-size-xxs: 0.25rem;
 }
 
 *{
@@ -79,4 +80,46 @@ img {
         height: 100%;
         object-fit: cover;
     }
+}
+
+/* Height */
+.height-1 {
+    height: 1rem;
+}
+.height-2 {
+    height: 2rem;
+}
+.height-3 {
+    height: 3rem;
+}
+.height-4 {
+    height: 4rem;
+}
+.height-5 {
+    height: 5rem;
+}
+.height-100 {
+    height: 100%;
+}
+
+/* Z index */
+.z-900 {
+    z-index: 900;
+}
+
+/* Position */
+.position-relative {
+    position: relative;
+}
+.position-absolute {
+    position: absolute;
+}
+.position-fixed {
+    position: fixed;
+}
+.position-sticky {
+    position: sticky;
+}
+.position-static {
+    position: static;
 }

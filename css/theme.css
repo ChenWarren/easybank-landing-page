@@ -39,6 +39,12 @@
 .bg-transparent {
     background-color: transparent;
 }
+.bg-gray {
+    background-color: var(--gray);
+}
+.bg-inherit {
+    background-color: inherit;
+}
 
 /* Color */
 .color-primary {
@@ -71,4 +77,7 @@
 
 .color-dark {
     color: var(--dark);
+}
+.color-inherit {
+    color: inherit;
 }
