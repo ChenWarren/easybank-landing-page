@@ -15,7 +15,7 @@
 #home-hero-section {
     background-image: url("../images/image-mockups.png"), url("../images/bg-intro-desktop.svg");
     background-size: 600px, 1000px;
-    background-position: 120% -100px, 1500% -200px;
+    background-position: 120% -100px, 120% -200px;
     background-repeat: no-repeat;
     height: 800px;
     display: flex;
