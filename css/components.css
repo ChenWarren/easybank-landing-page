@@ -1,5 +1,6 @@
 /* Main button style */
 .main-button {
+    height: 2.25rem;
     background-color: var(--primary);
     color: var(--white);
     cursor: pointer;
