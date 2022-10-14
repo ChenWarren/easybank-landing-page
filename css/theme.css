@@ -36,6 +36,10 @@
     background-color: var(--white);
 }
 
+.bg-transparent {
+    background-color: transparent;
+}
+
 /* Color */
 .color-primary {
     color: var(--primary);
