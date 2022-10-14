@@ -45,6 +45,9 @@
 .bg-inherit {
     background-color: inherit;
 }
+.bg-blue {
+    background-color: var(--blue);
+}
 
 /* Color */
 .color-primary {

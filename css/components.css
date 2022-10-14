@@ -59,3 +59,27 @@
         display: none;
     }
 }
+
+/* Footer nav menu */
+.footer-nav-menu > li {
+    border: none;
+    padding: 0.5rem 0;
+    color: var(--light);
+}
+
+.footer-nav-menu > li:hover {
+    color: var(--primary);
+}
+
+/* Social media icon */
+.social-media-icon {
+    margin-right: 0.5rem;
+    fill: var(--white);
+    cursor: pointer;
+}
+.social-media-icon:hover {
+    fill: var(--primary);
+}
+.social-media-icon:active {
+    animation: fadein 500ms;
+}
