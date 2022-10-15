@@ -179,6 +179,12 @@ img {
 }
 
 /* Max width */
+.max-width-40 {
+    max-width: 40px;
+}
+.max-width-60 {
+    max-width: 60px;
+}
 .max-width-100 {
     max-width: 100px;
 }

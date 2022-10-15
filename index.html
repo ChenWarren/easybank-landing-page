@@ -23,14 +23,15 @@
 </head>
 <body>
 
-  <!-- Navbar -->
-  <nav class="row-100 padding-horizontal-2 bg-white main-axis-center">
+  <!-- Desktop Navbar -->
+  <nav class="row-100 padding-horizontal-2 bg-white main-axis-center tablet-hide">
     <div class="row-80 main-axis-between bg-white">
       <a href="./index.html" class="bg-white padding-vertical-1">
         <div class="logo-wrapper">
           <img src="./images/logo.svg" alt="EasyBank Logo image">
         </div>
       </a>
+      <!-- Desktop menu -->
       <ul id="desktop-menu" class="row bg-white padding-top-1">
         <li class="padding-vertical-1 bg-white">Home</li>
         <li class="padding-vertical-1 bg-white text-center">About</li>
@@ -44,6 +45,25 @@
     </div>
   </nav>
   
+  <!-- Tablet and Mobile Navbar -->
+  <nav class="row-100 padding-horizontal-2 bg-white main-axis-center tablet-show">
+    <div id="mobile-navbar" class="row-80 main-axis-between bg-white">
+      <a href="./index.html" class="bg-white padding-vertical-1">
+        <div class="logo-wrapper">
+          <img src="./images/logo.svg" alt="EasyBank Logo image">
+        </div>
+      </a>
+      <!-- Tablet and mobile menu -->
+      <div class="row bg-transparent padding-vertical-1">
+        <button class="bg-transparent" id="tablet-menu">
+          <div class="max-width-40">
+            <img src="./images/icon-hamburger.svg" alt="hamburger menu icon">
+          </div>
+        </button>
+      </div>
+    </div>
+  </nav>
+
   <main>
     <!-- Home page hero section -->
     <section id="home-hero-section" class="col-100 main-axis-center cross-axis-center bg-light">
