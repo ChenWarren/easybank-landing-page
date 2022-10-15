@@ -310,3 +310,50 @@
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
+
+/* Gap */
+.gap-0 {
+  gap: 0;
+}
+.gap-std {
+  gap: 0.5rem;
+}
+.gap-1 {
+  gap: 1rem;
+}
+.gap-2 {
+  gap: 2rem;
+}
+.gap-3 {
+  gap: 3rem;
+}
+.gap-horizontal-0 {
+  column-gap: 0;
+}
+.gap-horizontal-std {
+  column-gap: 0.5rem;
+}
+.gap-horizontal-1 {
+  column-gap: 1rem;
+}
+.gap-horizontal-2 {
+  column-gap: 2rem;
+}
+.gap-horizontal-3 {
+  column-gap: 3rem;
+}
+.gap-vertical-0 {
+  row-gap: 0;
+}
+.gap-vertical-std {
+  row-gap: 0.5rem;
+}
+.gap-vertical-1 {
+  row-gap: 1rem;
+}
+.gap-vertical-2 {
+  row-gap: 2rem;
+}
+.gap-vertical-3 {
+  row-gap: 3rem;
+}
