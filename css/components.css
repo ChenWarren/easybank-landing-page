@@ -14,7 +14,7 @@
 
 /* Hero section style */
 #home-hero-section {
-    background-image:url("../images/image-mockups.png"), url("../images/bg-intro-desktop.svg");
+    background-image:var(--hero-image-1), var(--hero-image-2);
     background-size:600px, 1000px;
     background-position:100% -100px, 110% -200px;
     background-repeat: no-repeat;
@@ -22,28 +22,28 @@
 }
 @media screen and (max-width: 1500px) {
     #home-hero-section {
-        background-image: url("../images/image-mockups.png"), url("../images/bg-intro-desktop.svg");
+        background-image: var(--hero-image-1), var(--hero-image-2);
         background-size:600px, 1000px;
         background-position:100% -100px, 160% -200px;
     }
 }
 @media screen and (max-width: 1200px) {
     #home-hero-section {
-        background-image: url("../images/image-mockups.png"), url("../images/bg-intro-desktop.svg");
+        background-image: var(--hero-image-1), var(--hero-image-2);
         background-size: 600px, 1000px;
         background-position: 600px -100px, 400px -200px;
     }
 }
 @media screen and (max-width: 1024px) {
     #home-hero-section {
-        background-image: url("../images/image-mockups.png"), url("../images/bg-intro-desktop.svg");
+        background-image: var(--hero-image-1), var(--hero-image-2);
         background-size: 600px, 1000px;
         background-position: 450px -100px, 300px -200px;
     }
 }
 @media screen and (max-width: 600px) {
     #home-hero-section {
-        background-image: url("../images/image-mockups.png"), url("../images/bg-intro-mobile.svg");
+        background-image: var(--hero-image-1), var(--hero-image-2);
         background-size: 100%, 100%;
         background-position: 0 -140px, 0 -50px;
         height: 450px;

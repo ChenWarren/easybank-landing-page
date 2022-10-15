@@ -33,6 +33,8 @@
     --font-size-s: 0.75rem;
     --font-size-xs: 0.5rem;
     --font-size-xxs: 0.25rem;
+    --hero-image-1: url("../images/image-mockups.png");
+    --hero-image-2: url("../images/bg-intro-desktop.svg");
 }
 
 *{
@@ -173,4 +175,21 @@ img {
 }
 .flex-nowrap {
     flex-wrap: nowrap;
+}
+
+/* Max width */
+.max-width-100 {
+    max-width: 100px;
+}
+.max-width-200 {
+    max-width: 200px;
+}
+.max-width-300 {
+    max-width: 300px;
+}
+.max-width-400 {
+    max-width: 400px;
+}
+.max-width-500 {
+    max-width: 500px;
 }
