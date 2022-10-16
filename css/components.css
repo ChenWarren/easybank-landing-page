@@ -7,9 +7,13 @@
     padding: 0.5rem 1.5rem;
     border-radius: 2rem;
     background-image: linear-gradient(90deg, var(--primary), var(--info));
+    font-size: 0.8rem;
 }
 .main-button:hover {
     background-image: linear-gradient(90deg, var(--teal), var(--green));
+}
+.main-button:active {
+    animation: fadein 500ms;
 }
 
 /* Hero section style */
@@ -197,4 +201,41 @@
 }
 .display-block {
     display: block;
+}
+
+/* Home blob list image */
+.feature-blog-image-wrapper{
+    width: 100%;
+    height: 10rem;
+    border-radius: 0.25rem 0.25rem 0 0;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+}
+.feature-blog-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.25rem 0.25rem 0 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+.feature-blog-image-wrapper:hover .feature-blog-image,
+.feature-blog-image-wrapper:focus .feature-blog-image {
+    transform: scale(1.2);
+}
+.blog-img-1 {
+    background-image: var(--blog-image-1);
+}
+.blog-img-2 {
+    background-image: var(--blog-image-2);
+}
+.blog-img-3 {
+    background-image: var(--blog-image-3);
+}
+.blog-img-4 {
+    background-image: var(--blog-image-4);
 }

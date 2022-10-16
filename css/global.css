@@ -36,6 +36,10 @@
     --font-size-xxs: 0.25rem;
     --hero-image-1: url("../images/image-mockups.png");
     --hero-image-2: url("../images/bg-intro-desktop.svg");
+    --blog-image-1: url("../images/image-currency.jpg");
+    --blog-image-2: url("../images/image-restaurant.jpg");
+    --blog-image-3: url("../images/image-plane.jpg");
+    --blog-image-4: url("../images/image-confetti.jpg");
 }
 
 *{
