@@ -119,6 +119,12 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .row-80 {
+        width: 90%;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     .col-80, .col-70, .col-60, .col-50, .col-40, .col-33, .col-25, .col-20 {
         max-width: 1024px;
