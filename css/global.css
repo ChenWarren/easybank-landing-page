@@ -1,23 +1,16 @@
 :root{
     --blue: hsl(233, 26%, 24%);
-    --indigo: #6610f2;
-    --purple: #6f42c1;
-    --pink: #e83e8c;
-    --red: #dc3545;
-    --orange: #fd7e14;
-    --yellow: #ffc107;
-    --green: #3ab557;
-    --teal: #3ad0a3;
-    --cyan: #17a2b8;
+    --green: hsl(134, 51%, 47%);
+    --teal: hsl(162, 61%, 52%);
     --white: hsl(0, 0%, 100%);
     --gray: hsl(220, 16%, 96%);
-    --gray-dark: #9aa3ab;
+    --gray-dark: hsl(208, 9%, 64%);
     --primary: hsl(136, 65%, 51%);
     --secondary: hsl(233, 8%, 62%);
-    --success: #28a745;
+    --success: hsl(134, 61%, 41%);
     --info: hsl(192, 70%, 51%);
-    --warning: #ffc107;
-    --danger: #dc3545;
+    --warning: hsl(45, 100%, 51%);
+    --danger: hsl(354, 70%, 54%);
     --light: hsl(0, 0%, 98%);
     --dark: hsl(210, 10%, 23%);
     --breakpoint-sm: 600px;
@@ -25,7 +18,6 @@
     --breakpoint-lg: 1024px;
     --breakpoint-xl: 1200px;
     --font-family-sans-serif: 'Nunito', sans-serif;
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --font-size-base: 1rem;
     --font-size-xxxl: 3rem;
     --font-size-xxl: 2rem;
@@ -47,13 +39,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: var(--font-family-sans-serif);
-    /* background-color: var(--light); */
 }
 
 h1,h2,h3,h4{
     font-weight: normal;
 }
-
 h1{
     font-size: var(--font-size-xxxl);
 }
@@ -221,6 +211,7 @@ img {
 .rotate-20:hover {
     transform: rotate(20deg);
 }
+
 /* Rotage 600deg by hover */
 .rotate-60 {
     transition: all 500ms ease-in-out;
