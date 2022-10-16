@@ -49,3 +49,12 @@ pinterestIcon.onclick = () => {
 instagramIcon.onclick = () => {
     window.open('https://www.instagram.com/')
 }
+
+// Request invite button on click function
+let requestInviteButton = document.getElementsByClassName('request-invite')
+
+for (let i=0; len=requestInviteButton.length, i<len; i++) {
+    requestInviteButton[i].onclick = () => {
+        window.open('https://www.google.com/')
+    }
+}

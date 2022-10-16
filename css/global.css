@@ -213,3 +213,18 @@ img {
 .max-width-500 {
     max-width: 500px;
 }
+
+/* Rotage 20deg by hover */
+.rotate-20 {
+    transition: all 500ms ease-in-out;
+}
+.rotate-20:hover {
+    transform: rotate(20deg);
+}
+/* Rotage 600deg by hover */
+.rotate-60 {
+    transition: all 500ms ease-in-out;
+}
+.rotate-60:hover {
+    transform: rotate(60deg);
+}
