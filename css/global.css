@@ -83,6 +83,15 @@ li:active {
     animation: fadein 500ms;
 }
 
+/* Standard a style */
+a {
+    text-decoration: none;
+    color: var(--secondary);
+}
+a:hover {
+    color: var(--dark);
+}
+
 /* Standard button style */
 button {
     border: none;

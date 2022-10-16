@@ -102,13 +102,13 @@
 }
 
 /* Footer nav menu */
-.footer-nav-menu > li {
+.footer-nav-menu > a > li {
     border: none;
     padding: 0.5rem 0;
     color: var(--light);
 }
 
-.footer-nav-menu > li:hover {
+.footer-nav-menu > a > li:hover {
     color: var(--primary);
 }
 
